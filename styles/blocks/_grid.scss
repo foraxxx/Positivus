@@ -20,4 +20,16 @@
       --grid-columns: 1;
     }
   }
+
+  &--3 {
+    @include desktop {
+      --grid-columns: 2;
+
+      gap: 30px;
+    }
+
+    @include mobile {
+      --grid-columns: 1;
+    }
+  }
 }
